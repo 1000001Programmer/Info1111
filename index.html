@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>
+        Learning Javascript
+    </title>
+<script type="text/javascript" src="selflearnlevel1.js"> </script>
+
+<style>
+
+.mainalign {
+    float: center;
+    text-align: center;
+    width: 1000px;
+    height: 250px;
+    font-size: 24px;}
+
+.tablealign {
+    float: center;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    height: 25px;
+    font-size: 24px;}
+    
+
+div.align {
+    float: left;
+    margin: auto;
+    width: 200px;
+    height: 800px;
+    font-size: 24px;}
+
+.btn {
+    height: 50px; 
+    width: 100px; }
+
+.input {
+    float: center;
+    font-size: 32px;
+    height: 100px; 
+    width: 400px; }
+
+</style>
+</head>
+
+<body style="background-color:lightblue;" >
+
+    <div class= "mainalign">
+        <input class = "input" id="input" type ="text" placeholder="Enter a query" autocomplete="off">
+        <button onclick="clearpage()" class="btn">Clear Page</button>
+        <div id="displayoutput" >
+        </div>    
+    </div>
+
+    <div class="align" id="main" >
+        <p class="align">  "Command list: type the corresponding number into the central box for more details"<br>    
+        <br>'0-coinflip',<br>'1-date',<br>'2-time',<br>'3-randomlysplit',<br>'4-string reverse'    </p>
+    
+    </div>
+
+</body>
+</html>
+
